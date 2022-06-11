@@ -99,7 +99,9 @@ p {
 }
 
 .btn-branding:hover {
-  color: white;
+  background: white;
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
 }
 
 .btn-branding-outline {
